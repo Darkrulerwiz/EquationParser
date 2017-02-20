@@ -58,7 +58,7 @@ public class StringCalculator {
                     numbers.remove(i);
                     numbers.add(i, answer);
                     System.out.println("Addition/Subtraction");
-                    i=i-1;
+                    i--;
                 }
             }
         }catch(IndexOutOfBoundsException e){
